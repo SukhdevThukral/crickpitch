@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+@import "compass/css3";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #eef1fe; */
+  background-color: #0D2329;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navItem {
+  margin: 2vw 3vw;
+  font-size: 1.4vw;
+  text-decoration: none;
+  /* color: #525666; */
+  color: #cdcdcd;
+  transition: 300ms;
+}
+
+.navItem:hover {
+  color: #00aaff;
+}
+
+.mainBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainBody .image img{
+  width: 32.5vw;
+  margin-top: -3vw;
+  filter: grayscale(100%); 
+  transition: 500ms;
+  margin-right: 1000px;
+}
+
+.mainBody .image img:hover{
+  filter: grayscale(0);
+}
+
+.mainBody .image{
+  flex: 1;
+  align-self: flex-end;
+}
+
+.mainBody .info {
+  margin-left: 15vw;
+  font-size: 1.7vw;
+  flex: 1;
+  /* color: #525666; */
+  color: #00ffea;
+}
+
+.mainBody .info h3{
+  margin: 1vw 0;
+  font-size: 3.5vw;
+  margin-left: -200px;
+}
+
+.mainBody .info p{
+  color: #aaff00;
+  margin-left: -200px;
+}
+
+h3 font{
+  color:#00b3ff
+}
+
+.aboutButton{
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #222834;
+  background-color: #3bff5c;
+  padding: 1vw;
+  border-radius: 1.5vw;
+  font-weight: 500;
+  transition: 400ms;
+  margin-left: -200px;
+}
+
+.aboutButton:hover{
+  background-color: #00ff88;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+}
+
+.socials img{
+  margin: 2vw 1vw;
+  width: 2.2vw;
+}
+
+
+#imageLogo {
+  margin-top: -50px;
+}
+
